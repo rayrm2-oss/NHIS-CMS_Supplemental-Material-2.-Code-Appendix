@@ -1,6 +1,6 @@
 #!/usr/bin/env Rscript
 # 03_transform_mohs_ebt.R
-# Creates analytic dataset using expanded Mohs/eBT cancer-treatment codes.
+# Creates analytic dataset using codes.
 
 options(stringsAsFactors = FALSE)
 
