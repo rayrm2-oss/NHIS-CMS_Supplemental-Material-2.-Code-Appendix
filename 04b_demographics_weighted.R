@@ -1,8 +1,6 @@
 #!/usr/bin/env Rscript
 # 04b_demographics_weighted_corrected.R
-# Builds corrected NHIS demographic table with average annual pooled weights.
-# The original script parsed "02" from 02_data_clean; this version parses the
-# survey year from basename(clean_adultYY.rds) and divides WTFA_A by 5.
+# Builds  NHIS demographic table with average annual pooled weights.
 
 options(stringsAsFactors = FALSE)
 
