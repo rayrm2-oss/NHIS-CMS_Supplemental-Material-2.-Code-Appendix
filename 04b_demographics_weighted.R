@@ -1,5 +1,5 @@
 #!/usr/bin/env Rscript
-# 04b_demographics_weighted_corrected.R
+# 04b_demographics_weighted.R
 # Builds  NHIS demographic table with average annual pooled weights.
 
 options(stringsAsFactors = FALSE)
