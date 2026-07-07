@@ -1,5 +1,5 @@
 #!/usr/bin/env Rscript
-# 03_transform_mohs_ebt.R
+# 03_transform.R
 # Creates analytic dataset using codes.
 
 options(stringsAsFactors = FALSE)
