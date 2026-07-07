@@ -1,5 +1,5 @@
 #!/usr/bin/env Rscript
-# 06_exploratory_analysis_mohs_ebt.R
+# 06_exploratory_analysis.R
 
 options(stringsAsFactors = FALSE)
 
