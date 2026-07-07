@@ -1,5 +1,5 @@
 #!/usr/bin/env Rscript
-# 06b_exploratory_analysis_mod_mohs_ebt.R
+# 06b_exploratory_analysis_mod.R
 # Aggregated means and normal-approximation CIs for analysis.
 
 options(stringsAsFactors = FALSE)
