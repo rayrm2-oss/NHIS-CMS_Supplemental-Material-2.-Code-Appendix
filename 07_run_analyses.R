@@ -1,15 +1,15 @@
 #!/usr/bin/env Rscript
-# Runs the full corrected + Mohs/eBT-expanded analysis workflow.
+# Runs the full analysis workflow.
 
 scripts <- c(
-  "04b_demographics_weighted_corrected.R",
-  "04c_skincancer_weighted_corrected.R",
-  "04a_hcpcs_code_set_audit_mohs_ebt.R",
-  "03_transform_mohs_ebt.R",
-  "04d_cms_provider_table_mohs_ebt.R",
-  "05_compare_models_mohs_ebt.R",
-  "06_exploratory_analysis_mohs_ebt.R",
-  "06b_exploratory_analysis_mod_mohs_ebt.R"
+  "04b_demographics_weighted.R",
+  "04c_skincancer_weighted.R",
+  "04a_hcpcs_code_set_audit.R",
+  "03_transform.R",
+  "04d_cms_provider_table.R",
+  "05_compare_models.R",
+  "06_exploratory_analysis.R",
+  "06b_exploratory_analysis_mod.R"
 )
 
 args <- commandArgs(trailingOnly = FALSE)
@@ -33,4 +33,4 @@ for (script in scripts) {
   }
 }
 
-message("All corrected + Mohs/eBT-expanded analysis scripts completed.")
+message("All analysis scripts completed.")
