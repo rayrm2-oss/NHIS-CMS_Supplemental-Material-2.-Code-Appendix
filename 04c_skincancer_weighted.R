@@ -1,10 +1,7 @@
 #!/usr/bin/env Rscript
 # 04c_skincancer_weighted_corrected.R
-# Builds corrected NHIS skin outcome table:
-# - Parses survey year from basename(clean_adultYY.rds)
-# - Divides pooled NHIS weights by number of years
-# - Reports "Any skin cancer" among all Medicare respondents
-# - Reports skin cancer subtypes among respondents with any skin cancer history
+# Builds NHIS skin outcome table:
+
 
 options(stringsAsFactors = FALSE)
 
