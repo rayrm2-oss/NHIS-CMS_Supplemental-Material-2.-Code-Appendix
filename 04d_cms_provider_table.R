@@ -1,6 +1,6 @@
 #!/usr/bin/env Rscript
 # 04d_cms_provider_table_mohs_ebt.R
-# Builds the Mohs/eBT-expanded CMS provider table.
+# Builds the CMS provider table.
 
 options(stringsAsFactors = FALSE)
 
