@@ -1,5 +1,5 @@
 #!/usr/bin/env Rscript
-# 04d_cms_provider_table_mohs_ebt.R
+# 04d_cms_provider_table.R
 # Builds the CMS provider table.
 
 options(stringsAsFactors = FALSE)
