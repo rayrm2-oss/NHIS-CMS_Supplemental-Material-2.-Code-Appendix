@@ -1,5 +1,5 @@
 #!/usr/bin/env Rscript
-# Audits code-set decisions for the Mohs/eBT-expanded analysis.
+# Audits code-set decisions for the analysis.
 
 options(stringsAsFactors = FALSE)
 
