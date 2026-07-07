@@ -1,5 +1,5 @@
 #!/usr/bin/env Rscript
-# 04c_skincancer_weighted_corrected.R
+# 04c_skincancer_weighted.R
 # Builds NHIS skin outcome table:
 
 
