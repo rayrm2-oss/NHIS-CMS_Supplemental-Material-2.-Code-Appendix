@@ -1,14 +1,7 @@
 #!/usr/bin/env Rscript
-# Shared HCPCS/CPT code sets for the Mohs/eBT-expanded analysis.
+# Shared HCPCS/CPT code sets for the analysis.
 #
-# Design choice:
-# - Prevention service volume remains procedure-based: 17000, 17003, 17004,
-#   96567, 96573, 96574.
-# - PDT drug/supply codes J7308 and J7345 are included in prevention cost
-#   burden only, not service-volume ORs, to avoid counting the same PDT care
-#   episode as both a procedure and a supply service.
-# - Cancer treatment now includes Mohs and identifiable eBT/SRT-associated
-#   radiation delivery/planning codes.
+
 
 hcpcs_prev_procedure <- c(
   "17000", "17003", "17004",
