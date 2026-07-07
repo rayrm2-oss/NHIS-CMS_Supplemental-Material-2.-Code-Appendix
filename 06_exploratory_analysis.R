@@ -1,6 +1,5 @@
 #!/usr/bin/env Rscript
 # 06_exploratory_analysis_mohs_ebt.R
-# Exploratory models and plots using expanded Mohs/eBT treatment definition.
 
 options(stringsAsFactors = FALSE)
 
