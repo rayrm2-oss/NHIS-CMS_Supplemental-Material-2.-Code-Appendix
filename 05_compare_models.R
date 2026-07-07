@@ -1,6 +1,4 @@
 #!/usr/bin/env Rscript
-# 05_compare_models_mohs_ebt.R
-# Compares model behavior using analytic_dataset_mohs_ebt.rds.
 
 options(stringsAsFactors = FALSE)
 
